@@ -1,0 +1,74 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.jenkins-ci.plugins</groupId>
+        <artifactId>plugin</artifactId>
+        <version>1.410</version>
+    </parent>
+
+    <artifactId>xtrigger</artifactId>
+    <packaging>hpi</packaging>
+    <name>Jenkins XTrigger Plug-in</name>
+    <version>0.1-SNAPSHOT</version>
+    <url>http://wiki.jenkins-ci.org/display/JENKINS/XTrigger+Plugin</url>
+
+    <licenses>
+        <license>
+            <name>MIT license</name>
+            <comments>All source code is under the MIT license.</comments>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <id>gbois</id>
+            <name>Gregory Boissinot</name>
+            <timezone>+1</timezone>
+        </developer>
+    </developers>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.6</maven.compiler.source>
+        <maven.compiler.target>1.6</maven.compiler.target>
+        <fstrigger.plugin.version>0.10</fstrigger.plugin.version>
+        <urltrigger.plugin.version>0.4.1</urltrigger.plugin.version>
+        <scripttrigger.plugin.version>0.5.1</scripttrigger.plugin.version>
+        <ivytrigger.plugin.version>0.1</ivytrigger.plugin.version>
+    </properties>
+
+    <scm>
+        <connection>scm:git:git://github.com/jenkinsci/xtrigger-plugin.git</connection>
+        <developerConnection>scm:git:git@github.com:jenkinsci/xtrigger-plugin.git</developerConnection>
+    </scm>
+
+    <dependencies>
+        
+	<dependency>
+            <groupId>org.jenkins-ci.plugins</groupId>
+            <artifactId>fstrigger</artifactId>
+            <version>${fstrigger.plugin.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jenkins-ci.plugins</groupId>
+            <artifactId>urltrigger</artifactId>
+            <version>${urltrigger.plugin.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jenkins-ci.plugins</groupId>
+            <artifactId>scripttrigger</artifactId>
+            <version>${scripttrigger.plugin.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jenkins-ci.plugins</groupId>
+            <artifactId>ivytrigger</artifactId>
+            <version>${ivytrigger.plugin.version}</version>
+        </dependency>
+
+    </dependencies>
+
+</project>
