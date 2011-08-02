@@ -1,0 +1,4 @@
+<div>
+    This plug-in makes it possible to add other triggers.
+    A trigger provides polling mechanisms. A build is  scheduled if there is at least one change between 2 polls.
+</div>
