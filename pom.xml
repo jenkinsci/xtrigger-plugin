@@ -34,8 +34,9 @@
         <maven.compiler.target>1.6</maven.compiler.target>
         <fstrigger.plugin.version>0.10.1</fstrigger.plugin.version>
         <urltrigger.plugin.version>0.4.1</urltrigger.plugin.version>
-        <scripttrigger.plugin.version>0.5.1</scripttrigger.plugin.version>
+        <scripttrigger.plugin.version>0.6</scripttrigger.plugin.version>
         <ivytrigger.plugin.version>0.2</ivytrigger.plugin.version>
+        <buildresult-trigger.plugin.version>0.1</buildresult-trigger.plugin.version>
     </properties>
 
     <scm>
@@ -67,6 +68,12 @@
             <groupId>org.jenkins-ci.plugins</groupId>
             <artifactId>ivytrigger</artifactId>
             <version>${ivytrigger.plugin.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jenkins-ci.plugins</groupId>
+            <artifactId>buildresult-trigger</artifactId>
+            <version>${buildresult-trigger.plugin.version}</version>
         </dependency>
 
     </dependencies>
