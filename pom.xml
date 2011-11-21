@@ -34,7 +34,7 @@
         <maven.compiler.target>1.6</maven.compiler.target>
         <fstrigger.plugin.version>0.17</fstrigger.plugin.version>
         <urltrigger.plugin.version>0.7</urltrigger.plugin.version>
-        <scripttrigger.plugin.version>0.11</scripttrigger.plugin.version>
+        <scripttrigger.plugin.version>0.11.1</scripttrigger.plugin.version>
         <ivytrigger.plugin.version>0.4</ivytrigger.plugin.version>
         <buildresult-trigger.plugin.version>0.4</buildresult-trigger.plugin.version>
     </properties>
