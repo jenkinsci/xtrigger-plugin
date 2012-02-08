@@ -35,7 +35,7 @@
         <fstrigger.plugin.version>0.26</fstrigger.plugin.version>
         <urltrigger.plugin.version>0.11</urltrigger.plugin.version>
         <scripttrigger.plugin.version>0.14</scripttrigger.plugin.version>
-        <ivytrigger.plugin.version>0.11</ivytrigger.plugin.version>
+        <ivytrigger.plugin.version>0.12</ivytrigger.plugin.version>
         <buildresult-trigger.plugin.version>0.4</buildresult-trigger.plugin.version>
         <xtrigger.lib.version>0.7</xtrigger.lib.version>
     </properties>
