@@ -10,7 +10,7 @@
     <artifactId>xtrigger</artifactId>
     <packaging>hpi</packaging>
     <name>Jenkins XTrigger Plug-in</name>
-    <version>0.53</version>
+    <version>0.54-SNAPSHOT</version>
     <url>http://wiki.jenkins-ci.org/display/JENKINS/XTrigger+Plugin</url>
 
     <licenses>
