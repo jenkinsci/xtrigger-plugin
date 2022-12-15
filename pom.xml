@@ -32,7 +32,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.6</maven.compiler.source>
         <maven.compiler.target>1.6</maven.compiler.target>
-        <fstrigger.plugin.version>0.34</fstrigger.plugin.version>
+        <fstrigger.plugin.version>0.41</fstrigger.plugin.version>
         <urltrigger.plugin.version>0.31</urltrigger.plugin.version>
         <scripttrigger.plugin.version>0.28</scripttrigger.plugin.version>
         <ivytrigger.plugin.version>0.26</ivytrigger.plugin.version>
